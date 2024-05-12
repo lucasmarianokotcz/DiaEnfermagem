@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    background-color: #ffd1dc;
+    /* rosa */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Fonte mais cursiva */
+    flex-direction: column;
+    /* Coloca os elementos um em cima do outro */
+    position: relative;
+    /* Definindo o body como um elemento de posição relativa */
+}
+
+h1,
+h2,
+h3 {
+    color: #fff;
+    /* cor do texto branco */
+    margin: 80px 0;
+    /* aumenta o espaçamento vertical entre os títulos */
+    text-align: center;
+    /* centraliza o texto */
+    letter-spacing: 5px;
+    /* aumenta o espaçamento entre as letras */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* adiciona uma sombra de texto */
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-style: oblique;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #7d0088;
+}
+
+#imgSimboloEnfermagem {
+    position: absolute;
+    /* Definindo a imagem como um elemento de posição absoluta */
+    width: 150px;
+    /* Definindo a largura da imagem */
+    bottom: 20px;
+    /* Distância da parte inferior da página */
+    right: 10px;
+    /* Distância da parte direita da página */
+    filter: drop-shadow(8px 8px 10px green);
+}
+
+#imgEnfermagem {
+    position: absolute;
+    width: 120px;
+    bottom: 20px;
+    left: 10px;
+    filter: drop-shadow(-8px 8px 10px rgb(255, 142, 142));
+}
+
+#imgEnfermagemTopo {
+    position: absolute;
+    width: 120px;
+    top: 20px;
+    filter: drop-shadow(0px 0px 20px rgb(255, 38, 56));
+}
